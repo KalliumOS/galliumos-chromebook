@@ -1,3 +1,11 @@
+galliumos-laptop (22.04) phoenix; urgency=medium
+
+  * Move init-laptop-settings
+  * Move default keyboard setting
+  * Prepare for 22.04
+
+ -- Kraslin <git@kraslovision.com>
+
 galliumos-laptop (3.0) bismuth; urgency=medium
 
   * Prepare for GalliumOS 3.0

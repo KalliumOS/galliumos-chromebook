@@ -2,14 +2,13 @@ Source: galliumos-laptop
 Section: admin
 Priority: optional
 Maintainer: GalliumOS <galliumos@galliumos.org>
-Build-Depends: debhelper (>= 8.0.0),
-               dh-systemd
+Build-Depends: debhelper (>= 9.20160709)
 Standards-Version: 3.9.6
 
 Package: galliumos-laptop
 Provides: laptop
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, ubuntu-standard, galliumos-desktop
+Depends: ${misc:Depends}, xubuntu-core 
 Description: GalliumOS laptop files
  This package contains laptop files for GalliumOS

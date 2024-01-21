@@ -24,13 +24,3 @@ then
     echo 1 > "$CALIBRATE"
 fi
 
-#Insert keyboard backlight module for specific modules
-MODELS=(link lulu gandof samus)
-PRODUCT=`dmidecode -s system-product-name | awk '{print tolower($0)}'`
-for i in "${MODELS[@]}"
-do
-    if [ "$i" == "$PRODUCT" ] ; then
-        modprobe chromeos_keyboard_bl
-        modprobe chromebook_kb_backlight
-    fi
-done
