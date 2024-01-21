@@ -1,12 +1,12 @@
-Source: galliumos-laptop
+Source: galliumos-chromebook
 Section: admin
 Priority: optional
-Maintainer: GalliumOS <galliumos@galliumos.org>
+Maintainer: KalliumOS <git@kraslovision.com>
 Build-Depends: debhelper (>= 9.20160709)
 Standards-Version: 3.9.6
 
-Package: galliumos-laptop
-Provides: laptop
+Package: galliumos-chromebook
+Provides: chromebook 
 Architecture: all
 Priority: optional
 Depends: ${misc:Depends}, xubuntu-core 

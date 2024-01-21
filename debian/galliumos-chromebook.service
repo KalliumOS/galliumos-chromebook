@@ -2,7 +2,7 @@
 Description=GalliumOS system customization for Chromebooks
 
 [Service]
-ExecStart=/usr/sbin/init-laptop-settings
+ExecStart=/usr/sbin/galliumos-chromebook-init
 Type=oneshot
 RemainAfterExit=true
 
