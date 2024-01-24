@@ -9,6 +9,6 @@ Package: galliumos-chromebook
 Provides: chromebook 
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, xubuntu-core 
+Depends: ${misc:Depends}, kalliumos-desktop
 Description: GalliumOS laptop files
  This package contains laptop files for GalliumOS
